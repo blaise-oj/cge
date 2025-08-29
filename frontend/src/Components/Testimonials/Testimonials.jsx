@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Testimonials.css';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import user_2 from '../../assets/user-2.png';
 
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -34,6 +35,48 @@ const Testimonials = () => {
     location: "Milan, Italy",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80",
     text: "We've built a strong business relationship with this company because of their integrity, attention to detail, and consistent results. They always deliver on time, keep us updated throughout the process, and never compromise on quality. Their approach to client partnerships feels more like a collaboration than a transaction, which makes working with them a truly positive experience. For us, they have become more than just a supplier — they are a trusted partner we can count on."
+  },
+  {
+    id: 5,
+    name: "James Okello",
+    location: "Kampala, Uganda",
+    image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80",
+    text: "Working with this company has given us confidence to expand into new markets. Their reliability and dedication to delivering the right products on time has been unmatched. They go beyond simply supplying minerals — they actively engage with us to understand market trends and provide valuable insights that help us make better business decisions. Their professionalism and commitment to excellence make them stand out as a preferred partner in our industry."
+  },
+  {
+    id: 6,
+    name: "Sophia Martinez",
+    location: "Barcelona, Spain",
+    image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80",
+    text: "From the very first interaction, it was clear that this company values customer relationships. Their team takes the time to provide detailed explanations, answer questions, and ensure we are comfortable with every step of the process. Deliveries are consistently punctual, and the quality of the minerals has exceeded our expectations every single time. It’s refreshing to work with a supplier that treats our business goals as seriously as their own."
+  },
+  {
+    id: 7,
+    name: "Michael Chen",
+    location: "Singapore",
+    image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80",
+    text: "We value integrity, and this company has proven time and again that honesty and transparency are central to their operations. Whether it’s pricing, delivery schedules, or product specifications, everything is communicated openly and clearly. This has created a strong foundation of trust, allowing us to focus on growing our business without worrying about supply chain issues. Their professionalism is second to none."
+  },
+  {
+    id: 8,
+    name: "Fatima Al-Sayed",
+    location: "Dubai, UAE",
+    image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80",
+    text: "In a highly competitive industry, finding a supplier that consistently delivers quality products with full transparency is rare. This company has set a new benchmark in terms of customer service and ethical practices. They are responsive, innovative, and always willing to adapt to our changing requirements. Their focus on long-term partnership rather than short-term gains is exactly what makes them so dependable."
+  },
+  {
+    id: 9,
+    name: "Oliver White",
+    location: "London, UK",
+    image: user_2,
+    text: "What I appreciate most about this company is their consistency. In our years of collaboration, we have never had to worry about delays or compromised quality. Every interaction with their team reinforces their commitment to excellence. They not only deliver products but also provide a seamless experience that makes our supply chain smoother and more reliable. They truly set themselves apart from other suppliers in the market."
+  },
+  {
+    id: 10,
+    name: "Amara Johnson",
+    location: "Johannesburg, South Africa",
+    image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80",
+    text: "Partnering with this company has been one of the best decisions we’ve made for our business. Their ability to deliver premium quality products consistently, coupled with their outstanding customer service, has made them an integral part of our operations. They listen carefully, act quickly, and always prioritize our needs. We consider them not just suppliers but strategic allies in achieving our long-term goals."
   }
 ];
 
