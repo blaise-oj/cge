@@ -11,19 +11,19 @@ import white_arrow from '../../assets/white-arrow.png'
 const slides = [
   {
     src: gallery_1,
-    desc: "Our gold extraction process ensures purity and reliability at every stage."
+    desc: "Our metal shipment services are designed with clients in mind—offering reliability, safety, and smooth delivery right to your preferred location."
   },
   {
     src: gallery_2,
-    desc: "Global distribution with trusted logistics partners for timely deliveries."
+    desc: "Our logistics process is designed to guarantee the safe and secure transportation of metals across long distances. We use reinforced containers, advanced tracking systems, and trusted freight partners to ensure every shipment is protected against risks and delivered on time. Whether by land, sea, or air, our clients can rely on us for safe, efficient, and transparent delivery."
   },
   {
     src: gallery_3,
-    desc: "State-of-the-art mining operations with sustainability at the core."
+    desc: "We ensure that the ores are stored under optimal conditions to preserve its quality and prevent damage. Our specialized packaging solutions are designed to protect the metal from corrosion, impact, and environmental factors during transit, guaranteeing that every shipment reaches its destination safely and in excellent condition."
   },
   {
     src: gallery_4,
-    desc: "Trusted by clients worldwide for consistent quality and transparency."
+    desc: "Copper is stored in our warehouses under carefully controlled conditions to preserve its quality and prevent oxidation. We use specialized pallets, protective wrapping, and climate-conscious environments to ensure the metal remains free from contamination or damage. With strict inventory management systems, we provide secure, organized, and efficient storage until dispatch."
   }
 ];
 

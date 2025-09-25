@@ -54,12 +54,6 @@ const ContactPage = () => {
               info@aurumarkenterprise.com
             </a>
           </p>
-          <p>
-            Sales & Partnerships:{" "}
-            <a href="mailto:sales@aurumarkenterprise.com">
-              sales@aurumarkenterprise.com
-            </a>
-          </p>
         </div>
 
         <div className="info-card">
@@ -82,6 +76,65 @@ const ContactPage = () => {
           >
             View on Google Maps
           </a>
+        </div>
+        {/* WhatsApp */}
+        <div className="info-card">
+          <img src="/assets/whatsapp-icon.png" alt="WhatsApp" />
+          <h3>WhatsApp</h3>
+          <p>
+            <a
+              href="https://wa.me/254102913538"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Chat with us on WhatsApp
+            </a>
+          </p>
+        </div>
+
+        {/* Instagram */}
+        <div className="info-card">
+          <img src="/assets/instagram-icon.png" alt="Instagram" />
+          <h3>Instagram</h3>
+          <p>
+            <a
+              href="https://instagram.com/aurumarkenterprise"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @aurumarkenterprise
+            </a>
+          </p>
+        </div>
+
+        {/* X (Twitter) */}
+        <div className="info-card">
+          <img src="/assets/x-icon.png" alt="X" />
+          <h3>Follow us on X</h3>
+          <p>
+            <a
+              href="https://x.com/aurumarkenterprise"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @aurumarkenterprise
+            </a>
+          </p>
+        </div>
+
+        {/* Facebook */}
+        <div className="info-card">
+          <img src="/assets/facebook-icon.png" alt="Facebook" />
+          <h3>Facebook</h3>
+          <p>
+            <a
+              href="https://facebook.com/aurumarkenterprise"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Aurumark Enterprise
+            </a>
+          </p>
         </div>
       </div>
 

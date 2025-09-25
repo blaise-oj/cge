@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -44,13 +44,13 @@ const Footer = () => {
         {/* Column 4 - Contact & Socials */}
         <div className="footer-col">
           <h4>Contact</h4>
-          <p>Email: info@coskagroup.com</p>
-          <p>Phone: +254 700 123 456</p>
+          <p>Email: info@aurumarkenterprise.com</p>
+          <p>Phone: +254 102 913 538</p>
           <div className="socials">
             <a href="#"><FaFacebookF /></a>
             <a href="#"><FaTwitter /></a>
             <a href="#"><FaInstagram /></a>
-            <a href="#"><FaLinkedinIn /></a>
+            <a href="#"><FaWhatsapp /></a>
           </div>
         </div>
       </div>
