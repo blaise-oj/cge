@@ -1,28 +1,79 @@
-.footer{
-    margin: 10px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-top: 1px solid #797979;
-    padding: 15px 0;
+.footer {
+  background: #000f38;
+  color: #fff;
+  padding: 40px 20px 20px; /* reduce top padding so content isn't pushed too far down */
+  margin-top: 40px;        /* add space above footer to separate from map */
+  font-family: Arial, sans-serif;
+}
 
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
 }
-.footer ul li{
-    display: inline-block;
-    list-style: none;
-    margin-left: 20px;
+
+.footer-col h3,
+.footer-col h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #ff8c00;
 }
-/*--media query--*/
-@media (max-width: 600px){
-    .footer {
-        display: block;
-        text-align: center;
-    }
-    .footer ul{
-        margin-top: 10px;
-    }
-    .footer ul li{
-        margin: 10px;
-        
-    }
+
+.footer-col p {
+  line-height: 1.6;
+  font-size: 15px;
+  color: #ddd;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #ff8c00;
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.socials a {
+  color: #fff;
+  background: #ff8c00;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  background: #fff;
+  color: #000f38;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 30px;
+  font-size: 14px;
+  color: #aaa;
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from "./Components/ScrollToTop.jsx";
 
 // Components
 import Navbar from './Components/Navbar/Navbar';
@@ -23,6 +24,7 @@ const App = () => {
 
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         {/* Home page */}

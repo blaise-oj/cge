@@ -1,9 +1,8 @@
 .preparations {
-  margin: 80px auto;
+  margin: 15px auto; /* reduced spacing */
   width: 90%;
   text-align: center;
 }
-
 /* Slider container */
 .slider {
   position: relative;
@@ -96,7 +95,7 @@
 .dots {
   display: flex;
   justify-content: center;
-  margin: 10px 0 30px;
+  margin: 10px 0 10px;
   gap: 8px;
 }
 

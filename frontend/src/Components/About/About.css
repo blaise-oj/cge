@@ -1,11 +1,13 @@
-.about{
-    margin: 100px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    gap: 50px;
+.about {
+  padding: 60px 0;   /* equal top & bottom padding inside */
+  margin: 0 auto;    /* remove big outer gap */
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
 }
+
 .about-left{
     flex-basis: 40%;
     position: relative;

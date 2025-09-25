@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className= 'hero container'>
         <div className='hero-text'>
-            <h1>COSKA GROUP ENTERPRISE<br/> Metals and Minerals</h1>
+            <h1>AURUMARK COMPANY ENTERPRISE<br/> Metals and Minerals</h1>
             <p>Trusted International Partners in Mining & Trade</p>
             <Link to="/products">
           <button className="btn dark-btn">
