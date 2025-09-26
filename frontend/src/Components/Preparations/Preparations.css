@@ -139,8 +139,9 @@
   }
 
   .slide-desc {
-    font-size: 14px;
+    font-size: 12px;
     padding: 8px 12px;
-    bottom: 10px;
+    bottom: 15px;   /* keep it visible but not covering the whole image */
+    max-width: 100%;
   }
 }

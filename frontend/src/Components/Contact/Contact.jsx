@@ -75,21 +75,21 @@ const Contact = () => {
 
             <li>
               <img src={facebook} alt="Facebook" />
-              <a href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer">
+              <a href="https://facebook.com/aurumarkenterprise" target="_blank" rel="noopener noreferrer">
                 Facebook
               </a>
             </li>
 
             <li>
               <img src={twitter} alt="Twitter" />
-              <a href="https://twitter.com/yourpage" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/aurumarkenterprise" target="_blank" rel="noopener noreferrer">
                 Twitter
               </a>
             </li>
 
             <li>
               <img src={instagram} alt="Instagram" />
-              <a href="https://instagram.com/yourpage" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/aurumarkenterprise" target="_blank" rel="noopener noreferrer">
                 Instagram
               </a>
             </li>

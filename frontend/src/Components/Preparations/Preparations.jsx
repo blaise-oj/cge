@@ -15,15 +15,15 @@ const slides = [
   },
   {
     src: gallery_2,
-    desc: "Our logistics process is designed to guarantee the safe and secure transportation of metals across long distances. We use reinforced containers, advanced tracking systems, and trusted freight partners to ensure every shipment is protected against risks and delivered on time. Whether by land, sea, or air, our clients can rely on us for safe, efficient, and transparent delivery."
+    desc: "Our logistics ensure safe, secure, and timely metal transportation across long distances. With reinforced containers, tracking systems, and trusted partners, every shipment is delivered efficiently and transparently by land, sea, or air."
   },
   {
     src: gallery_3,
-    desc: "We ensure that the ores are stored under optimal conditions to preserve its quality and prevent damage. Our specialized packaging solutions are designed to protect the metal from corrosion, impact, and environmental factors during transit, guaranteeing that every shipment reaches its destination safely and in excellent condition."
+    desc: "We store ores under optimal conditions to preserve quality and prevent damage. With specialized packaging, metals are protected from corrosion, impact, and the environment—ensuring every shipment arrives safe and intact."
   },
   {
     src: gallery_4,
-    desc: "Copper is stored in our warehouses under carefully controlled conditions to preserve its quality and prevent oxidation. We use specialized pallets, protective wrapping, and climate-conscious environments to ensure the metal remains free from contamination or damage. With strict inventory management systems, we provide secure, organized, and efficient storage until dispatch."
+    desc: "Copper is stored under controlled conditions to prevent oxidation. Using pallets, protective wrapping, and climate-aware storage, we keep it safe, organized, and ready for dispatch."
   }
 ];
 
