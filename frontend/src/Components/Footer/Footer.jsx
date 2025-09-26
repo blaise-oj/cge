@@ -47,11 +47,36 @@ const Footer = () => {
           <p>Email: info@aurumarkenterprise.com</p>
           <p>Phone: +254 102 913 538</p>
           <div className="socials">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaWhatsapp /></a>
+            <a
+              href="https://facebook.com/aurumarkenterprise"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebookF />
+            </a>
+            <a
+              href="https://x.com/aurumarkenterprise"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter />
+            </a>
+            <a
+              href="https://instagram.com/aurumarkenterprise"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://wa.me/254102913538"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsapp />
+            </a>
           </div>
+
         </div>
       </div>
 

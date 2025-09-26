@@ -4,6 +4,10 @@ import phone_icon from "../../assets/phone-icon.png";
 import mail_icon from "../../assets/mail-icon.png";
 import location_icon from "../../assets/location-icon.png";
 import white_arrow from "../../assets/white-arrow.png";
+import instagram from "../../assets/instagram.png";
+import facebook from "../../assets/facebook.png";
+import twitter from "../../assets/twitter.png";
+import whatsapp from "../../assets/whatsapp.png";
 
 const ContactPage = () => {
   const [result, setResult] = React.useState("");
@@ -12,7 +16,7 @@ const ContactPage = () => {
     event.preventDefault();
     setResult("Sending...");
     const formData = new FormData(event.target);
-    formData.append("access_key", "42e2d5dd-dfb4-4bf9-8e35-469fec075c55");
+    formData.append("access_key", "88783ec1-b5dc-4ce6-84bd-808151faf7a1");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -62,7 +66,7 @@ const ContactPage = () => {
           <p>
             <a href="tel:+254102913538">+254 102 913 538</a>
           </p>
-          <p>Mon - Fri, 9:00am - 6:00pm EAT</p>
+          <p>Always available</p>
         </div>
 
         <div className="info-card">
@@ -77,9 +81,10 @@ const ContactPage = () => {
             View on Google Maps
           </a>
         </div>
+
         {/* WhatsApp */}
         <div className="info-card">
-          <img src="/assets/whatsapp-icon.png" alt="WhatsApp" />
+          <img src={whatsapp} alt="WhatsApp" />
           <h3>WhatsApp</h3>
           <p>
             <a
@@ -94,7 +99,7 @@ const ContactPage = () => {
 
         {/* Instagram */}
         <div className="info-card">
-          <img src="/assets/instagram-icon.png" alt="Instagram" />
+          <img src={instagram} alt="Instagram" />
           <h3>Instagram</h3>
           <p>
             <a
@@ -109,7 +114,7 @@ const ContactPage = () => {
 
         {/* X (Twitter) */}
         <div className="info-card">
-          <img src="/assets/x-icon.png" alt="X" />
+          <img src={twitter} alt="X" />
           <h3>Follow us on X</h3>
           <p>
             <a
@@ -124,7 +129,7 @@ const ContactPage = () => {
 
         {/* Facebook */}
         <div className="info-card">
-          <img src="/assets/facebook-icon.png" alt="Facebook" />
+          <img src={facebook} alt="Facebook" />
           <h3>Facebook</h3>
           <p>
             <a
@@ -137,6 +142,7 @@ const ContactPage = () => {
           </p>
         </div>
       </div>
+
 
       {/* Form */}
       <div className="contact-form-section">

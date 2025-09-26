@@ -4,6 +4,10 @@ import phone_icon from '../../assets/phone-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
 import location_icon from '../../assets/location-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
+import instagram from '../../assets/instagram.png'
+import facebook from '../../assets/facebook.png'
+import twitter from '../../assets/twitter.png'
+import whatsapp from '../../assets/whatsapp.png'
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -13,7 +17,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "42e2d5dd-dfb4-4bf9-8e35-469fec075c55");
+    formData.append("access_key", "88783ec1-b5dc-4ce6-84bd-808151faf7a1");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -60,7 +64,37 @@ const Contact = () => {
                 Lusaka Rd, Nairobi, Kenya
               </a>
             </li>
+
+            {/* Social Media */}
+            <li>
+              <img src={whatsapp} alt="WhatsApp" />
+              <a href="https://wa.me/254102913538" target="_blank" rel="noopener noreferrer">
+                WhatsApp
+              </a>
+            </li>
+
+            <li>
+              <img src={facebook} alt="Facebook" />
+              <a href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer">
+                Facebook
+              </a>
+            </li>
+
+            <li>
+              <img src={twitter} alt="Twitter" />
+              <a href="https://twitter.com/yourpage" target="_blank" rel="noopener noreferrer">
+                Twitter
+              </a>
+            </li>
+
+            <li>
+              <img src={instagram} alt="Instagram" />
+              <a href="https://instagram.com/yourpage" target="_blank" rel="noopener noreferrer">
+                Instagram
+              </a>
+            </li>
           </ul>
+
 
         </div>
 
