@@ -133,7 +133,7 @@ const ContactPage = () => {
           <h3>Facebook</h3>
           <p>
             <a
-              href="https://facebook.com/aurumarkenterprise"
+              href="https://www.facebook.com/share/1JXQAN34Rh/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -48,7 +48,7 @@ const Footer = () => {
           <p>Phone: +254 102 913 538</p>
           <div className="socials">
             <a
-              href="https://facebook.com/aurumarkenterprise"
+              href="https://www.facebook.com/share/1JXQAN34Rh/"
               target="_blank"
               rel="noopener noreferrer"
             >

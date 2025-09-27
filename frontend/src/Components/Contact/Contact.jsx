@@ -75,7 +75,7 @@ const Contact = () => {
 
             <li>
               <img src={facebook} alt="Facebook" />
-              <a href="https://facebook.com/aurumarkenterprise" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/share/1JXQAN34Rh/" target="_blank" rel="noopener noreferrer">
                 Facebook
               </a>
             </li>
