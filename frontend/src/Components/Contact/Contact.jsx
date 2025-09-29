@@ -82,7 +82,7 @@ const Contact = () => {
 
             <li>
               <img src={twitter} alt="Twitter" />
-              <a href="https://x.com/aurumarkenterprise" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/@AurumarkE15952" target="_blank" rel="noopener noreferrer">
                 Twitter
               </a>
             </li>

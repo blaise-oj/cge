@@ -55,7 +55,7 @@ const Footer = () => {
               <FaFacebookF />
             </a>
             <a
-              href="https://x.com/aurumarkenterprise"
+              href="https://x.com/@AurumarkE15952"
               target="_blank"
               rel="noopener noreferrer"
             >

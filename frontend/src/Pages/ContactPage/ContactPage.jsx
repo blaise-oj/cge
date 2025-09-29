@@ -118,7 +118,7 @@ const ContactPage = () => {
           <h3>Follow us on X</h3>
           <p>
             <a
-              href="https://x.com/aurumarkenterprise"
+              href="https://x.com/@AurumarkE15952"
               target="_blank"
               rel="noopener noreferrer"
             >
