@@ -48,7 +48,7 @@ const Footer = () => {
           <p>Phone: +254 102 913 538</p>
           <div className="socials">
             <a
-              href="https://www.facebook.com/share/1JXQAN34Rh/"
+              href="https://www.facebook.com/profile.php?id=61582791081492"
               target="_blank"
               rel="noopener noreferrer"
             >
