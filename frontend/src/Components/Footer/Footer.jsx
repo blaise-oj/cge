@@ -10,9 +10,9 @@ const Footer = () => {
 
         {/* Column 1 - Logo / About */}
         <div className="footer-col">
-          <h3 className="footer-logo">Aurumark Company Enterprise</h3>
+          <h3 className="footer-logo">Goldstrike Enterprise Limited</h3>
           <p className="footer-about">
-            Aurumark Company Enterprise is a trusted enterprise in the global trade of precious
+            Goldstrike Enterprise Limited is a trusted enterprise in the global trade of precious
             and industrial minerals. We are committed to ethical sourcing,
             sustainable practices, and delivering lasting value to our partners
             and clients. Our focus on integrity and innovation positions us as
@@ -82,7 +82,7 @@ const Footer = () => {
 
       {/* Bottom copyright bar */}
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Aurumark Company Enterprise. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Goldstrike Enterprise Limited. All rights reserved.</p>
       </div>
     </footer>
   );

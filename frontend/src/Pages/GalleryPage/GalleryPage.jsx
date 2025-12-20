@@ -53,7 +53,7 @@ const GalleryPage = () => {
     <div className="gallery-page">
       <h1>Our Gallery</h1>
       <p className="gallery-intro">
-        Explore highlights from <strong>Aurumark Company Enterprise</strong> – showcasing our
+        Explore highlights from <strong>Goldstrike Enterprise Limited</strong> – showcasing our
         minerals, operations, and commitment to global trade.
       </p>
       <div className="gallery-grid">

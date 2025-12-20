@@ -48,9 +48,9 @@ const ProductsPage = () => {
             </header>
             <section className="about-company">
                 <div className="about-company-container">
-                    <h2>About Aurumark Company Enterprise</h2>
+                    <h2>About Goldstrike Enterprise Limited</h2>
                     <p>
-                        At Aurumark Company Enterprise, we specialize in sourcing and exporting the highest
+                        At Goldstrike Enterprise Limited, we specialize in sourcing and exporting the highest
                         quality minerals and luxury goods worldwide. With a reputation built on
                         trust, efficiency, and excellence, our company connects industries and
                         clients across the globe, ensuring reliable supply chains and premium

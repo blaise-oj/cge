@@ -27,7 +27,7 @@ const Navbar = () => {
         {/* Logo + Company Name together */}
         <div className="navbar-brand">
           <img src={logo} alt="Logo" className="logo" />
-          <span className="company-name">Aurumark Company<br/> Enterprise</span>
+          <span className="company-name">Goldstrike Enterprise<br/>Limited</span>
         </div>
 
         <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>

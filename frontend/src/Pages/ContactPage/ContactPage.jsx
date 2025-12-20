@@ -37,9 +37,9 @@ const ContactPage = () => {
     <div className="contact-page">
       {/* Intro */}
       <div className="contact-header">
-        <h1>Contact Aurumark Company Enterprise</h1>
+        <h1>Contact Goldstrike Enterprise Limited</h1>
         <p>
-          At <strong>Aurumark Company Enterprise</strong>, we value open
+          At <strong>Goldstrike Enterprise Limited</strong>, we value open
           communication with our clients, partners, and stakeholders. Whether
           you’re looking to explore our mineral exports, request a partnership,
           or simply ask a question, we’re here to assist you promptly and
@@ -137,7 +137,7 @@ const ContactPage = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Aurumark Enterprise
+              Goldstrike Enterprise Limited
             </a>
           </p>
         </div>
