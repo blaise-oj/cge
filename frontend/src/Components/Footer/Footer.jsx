@@ -43,41 +43,61 @@ const Footer = () => {
 
         {/* Column 4 - Contact & Socials */}
         <div className="footer-col">
-          <h4>Contact</h4>
-          <p>Email: info@aurumarkenterprise.com</p>
-          <p>Phone: +254 102 913 538</p>
-          <div className="socials">
-            <a
-              href="https://www.facebook.com/profile.php?id=61582791081492"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebookF />
-            </a>
-            <a
-              href="https://x.com/@AurumarkE15952"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaTwitter />
-            </a>
-            <a
-              href="https://instagram.com/aurumarkenterprise"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="https://wa.me/254102913538"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaWhatsapp />
-            </a>
-          </div>
+  <h4>Contact</h4>
 
-        </div>
+  <p>
+    Email:{" "}
+    <a href="mailto:info@goldstrikeenterprise.com">
+      info@goldstrikeenterprise.com
+    </a>
+  </p>
+
+  <p>
+    Phone:{" "}
+    <a href="tel:+254102913538">
+      +254 102 913 538
+    </a>
+  </p>
+
+  <div className="socials">
+    <a
+      href="https://www.facebook.com/profile.php?id=61582791081492"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Facebook"
+    >
+      <FaFacebookF />
+    </a>
+
+    <a
+      href="https://x.com/@AurumarkE15952"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Twitter / X"
+    >
+      <FaTwitter />
+    </a>
+
+    <a
+      href="https://instagram.com/aurumarkenterprise"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Instagram"
+    >
+      <FaInstagram />
+    </a>
+
+    <a
+      href="https://wa.me/254102913538"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="WhatsApp"
+    >
+      <FaWhatsapp />
+    </a>
+  </div>
+</div>
+
       </div>
 
       {/* Bottom copyright bar */}

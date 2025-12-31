@@ -44,8 +44,8 @@ const Contact = () => {
           <ul>
             <li>
               <img src={mail_icon} alt='' />
-              <a href="mailto:info@aurumarkenterprise.com">
-                info@aurumarkenterprise.com
+              <a href="mailto:info@goldstrikeenterprise.com">
+                info@goldstrikeenterprise.com
               </a>
             </li>
 
