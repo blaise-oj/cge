@@ -89,7 +89,7 @@ const Contact = () => {
 
             <li>
               <img src={instagram} alt="Instagram" />
-              <a href="https://instagram.com/aurumarkenterprise" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/goldstrikeenterprise" target="_blank" rel="noopener noreferrer">
                 Instagram
               </a>
             </li>

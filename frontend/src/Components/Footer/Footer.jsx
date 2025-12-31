@@ -79,7 +79,7 @@ const Footer = () => {
     </a>
 
     <a
-      href="https://instagram.com/aurumarkenterprise"
+      href="https://instagram.com/goldstrikeenterprise"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Instagram"
