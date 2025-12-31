@@ -54,8 +54,8 @@ const ContactPage = () => {
           <h3>Email Us</h3>
           <p>
             General Inquiries:{" "}
-            <a href="mailto:info@aurumarkenterprise.com">
-              info@aurumarkenterprise.com
+            <a href="mailto:info@goldstrikeenterprise.com">
+              info@goldstrikeenterprise.com
             </a>
           </p>
         </div>
