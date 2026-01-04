@@ -60,3 +60,86 @@
         
     }
 }
+/* PARTNER HIGHLIGHT – HOME ABOUT */
+.home-partner {
+  margin-top: 25px;
+  padding: 18px 22px;
+  border-left: 4px solid #FF8C00;
+  background: #fff7ed;
+  border-radius: 10px;
+}
+
+.home-partner h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #FF8C00;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.home-partner p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Optional logo styling */
+.home-partner img {
+  max-width: 140px;
+  margin-bottom: 10px;
+}
+/* LEADERSHIP PREVIEW – HOME ABOUT */
+.home-leadership {
+  margin-top: 22px;
+  padding: 18px 22px;
+  border-left: 4px solid #000;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.home-leadership h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.leader-mini {
+  margin-bottom: 10px;
+}
+
+.leader-mini strong {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.leader-mini span {
+  font-size: 0.85rem;
+  color: #555;
+}
+/* CTA BUTTON – LEADERSHIP */
+.about-cta-btn {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 22px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #fff;
+  background: #FF8C00;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.about-cta-btn:hover {
+  background: #FF8C00;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 140, 0, 0.3);
+}
+

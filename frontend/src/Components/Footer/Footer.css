@@ -77,3 +77,31 @@
   font-size: 14px;
   color: #aaa;
 }
+.footer-subtitle {
+  margin-top: 18px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #FF8C00;
+}
+
+.footer-col p {
+  font-size: 0.9rem;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.footer-col strong {
+  color: #fff;
+}
+
+/* Improve spacing on small screens */
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-col {
+    margin-bottom: 30px;
+  }
+}

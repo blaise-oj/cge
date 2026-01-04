@@ -18,6 +18,7 @@ import HomePage from './Pages/HomePage/HomePage';
 import ProductsPage from './Pages/ProductsPage/ProductsPage';
 import GalleryPage from './Pages/GalleryPage/GalleryPage';
 import ContactPage from './Pages/ContactPage/ContactPage';
+import AboutPage from './Pages/AboutPage/AboutPage';
 
 const App = () => {
   const [playState, setPlayState] = useState(false);
@@ -51,6 +52,7 @@ const App = () => {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
 
 
