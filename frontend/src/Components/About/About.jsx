@@ -68,6 +68,12 @@ const About = ({ setPlayState }) => {
           <div className="leader-mini">
             <strong>Mr. Francis Otundo</strong>
             <span>Managing Director</span>
+            <p>
+                            Email:{" "}
+                            <a href="mailto:info@goldstrikeenterprise.com">
+                                info@goldstrikeenterprise.com
+                            </a>
+                        </p>
           </div>
 
           {/* CTA BUTTON */}

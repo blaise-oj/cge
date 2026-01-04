@@ -47,6 +47,10 @@ const Footer = () => {
                             </a>
                         </p></p>
           <p><strong>Mr. Francis Otundo</strong><br />Managing Director</p>
+           Email:{" "}
+                            <a href="mailto:info@goldstrikeenterprise.com">
+                                info@goldstrikeenterprise.com
+                            </a>
 
           <h4 className="footer-subtitle">Strategic Partner</h4>
           <p>
