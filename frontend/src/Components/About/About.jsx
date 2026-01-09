@@ -10,7 +10,7 @@ const About = ({ setPlayState }) => {
 
       {/* LEFT */}
       <div className='about-left'>
-        <img src={gallery_10} alt="Goldstrike Operations" className='about-img' />
+        <img src={gallery_10} alt="Goldstrike Gold Operations" className='about-img' />
         <img
           src={play_icon}
           alt="Play Video"
@@ -21,73 +21,73 @@ const About = ({ setPlayState }) => {
 
       {/* RIGHT */}
       <div className='about_right'>
-        <h3>About Us</h3>
-        <h2>From the Earth to the World: Supplying Quality Minerals</h2>
+        <h3>About Goldstrike</h3>
+        <h2>Trusted Gold Buying & Selling for Global Markets</h2>
 
         <p>
-          Goldstrike Enterprise Limited is a trusted name in the mining and global
-          trade of precious and industrial minerals, focused on gold, silver,
-          diamonds, and other high-value resources.
+          <strong>Goldstrike Enterprise Limited</strong> is a specialized gold trading
+          company engaged in the responsible <strong>buying, handling, and selling of
+            gold</strong> to local and international markets. We work closely with
+          licensed miners, suppliers, refiners, and institutional buyers to facilitate
+          secure and transparent gold transactions.
         </p>
 
         <p>
-          We are committed to ethical sourcing, quality assurance, and transparent
-          supply chains that meet international standards.
+          Our operations cover the full gold trade cycle—from sourcing and purchasing,
+          to quality verification, secure storage, logistics, and compliant export.
+          Every transaction is conducted in line with international standards, ensuring
+          fairness, traceability, and long-term value for all partners involved.
         </p>
 
         {/* PARTNER */}
         <div className="home-partner">
-          <h4>Strategic UK Partner</h4>
+          <h4>Strategic International Partnership</h4>
           <p>
-            Our operations are strengthened by our UK-based parent partner,
-            <strong> Equinox Metal Partners</strong>, providing global market
-            access, regulatory compliance, and trade execution expertise.
+            We are supported by our UK-based strategic partner,
+            <strong> Equinox Metal Partners</strong>, enabling access to global buyers,
+            refined market intelligence, regulatory compliance, and efficient trade
+            execution across international gold markets.
           </p>
-          {/* CTA BUTTON */}
+
           <Link to="/about" className="about-cta-btn">
-            Explore More About Us
+            Learn More About Our Trading Model
           </Link>
         </div>
 
         {/* LEADERSHIP */}
         <div className="home-leadership">
-          <h4>Management</h4>
+          <h4>Leadership & Management</h4>
 
           <div className="leader-mini">
             <strong>Mr. Sukhram Parkash</strong>
             <span>Chief Executive Officer (CEO)</span>
             <p>
-                            Email:{" "}
-                            <a href="mailto:ram@equinoxmetalpartners.com">
-                                ram@equinoxmetalpartners.com
-                            </a>
-                        </p>
-                    
+              Email:{" "}
+              <a href="mailto:ram@equinoxmetalpartners.com">
+                ram@equinoxmetalpartners.com
+              </a>
+            </p>
           </div>
 
           <div className="leader-mini">
             <strong>Mr. Francis Otundo</strong>
             <span>Managing Director</span>
             <p>
-                            Email:{" "}
-                            <a href="mailto:info@goldstrikeenterprise.com">
-                                info@goldstrikeenterprise.com
-                            </a>
-                        </p>
+              Email:{" "}
+              <a href="mailto:info@goldstrikeenterprise.com">
+                info@goldstrikeenterprise.com
+              </a>
+            </p>
           </div>
 
-          {/* CTA BUTTON */}
           <Link to="/about" className="about-cta-btn">
-            Explore More About Us
+            Learn more about us
           </Link>
         </div>
-
       </div>
+
     </div>
   )
 }
 
 export default About
-
-
-

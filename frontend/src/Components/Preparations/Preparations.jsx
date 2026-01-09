@@ -42,7 +42,7 @@ const Preparations = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % processes.length);
-    }, 30000); // 30 seconds for a faster carousel
+    }, 10000); // 10 seconds for a faster carousel
     return () => clearInterval(interval);
   }, []);
 
