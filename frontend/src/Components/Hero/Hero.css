@@ -14,14 +14,24 @@
     max-width: 800px;
 }
 .hero-text h1{
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 500;
 }
 .hero-text p {
     max-width: 700px;
     line-height: list;
     margin: 10px auto 20px;
-    font-size: 30px;
+    font-size: 20px;
+}
+.hero-text button {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #ffd700;
+    color: #1c1c1c;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 /*--media query for responsive hero section--*/
 @media (max-width: 850px){

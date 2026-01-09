@@ -1,96 +1,97 @@
-import React, { useState, useEffect } from 'react'
-import './Preparations.css'
-import {Link} from "react-router-dom"
-import gallery_1 from '../../assets/gallery-1.png'
-import gallery_2 from '../../assets/gallery-2.png'
-import gallery_3 from '../../assets/gallery-3.png'
-import gallery_4 from '../../assets/gallery-4.png'
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import white_arrow from '../../assets/white-arrow.png'
+import React, { useState, useEffect } from "react";
+import "./Preparations.css";
+import { Link } from "react-router-dom";
+import white_arrow from "../../assets/white-arrow.png";
 
-const slides = [
+import g31 from "../../assets/g31.png";
+import g32 from "../../assets/g32.png";
+import g33 from "../../assets/g33.png";
+import g34 from "../../assets/g34.png";
+
+const processes = [
   {
-    src: gallery_1,
-    desc: "Our metal shipment services are designed with clients in mind—offering reliability, safety, and smooth delivery right to your preferred location."
+    title: "Secure Gold Handling",
+    image: g31,
+    description:
+      "Our gold handling process is built on precision, security, and transparency, ensuring every consignment is protected from the point of origin to final destination.",
   },
   {
-    src: gallery_2,
-    desc: "Our logistics ensure safe, secure, and timely metal transportation across long distances. With reinforced containers, tracking systems, and trusted partners, every shipment is delivered efficiently and transparently by land, sea, or air."
+    title: "Insured Gold Logistics",
+    image: g32,
+    description:
+      "We work with trusted global logistics partners to provide fully insured gold transportation by land, sea, and air, supported by advanced tracking systems.",
   },
   {
-    src: gallery_3,
-    desc: "We store ores under optimal conditions to preserve quality and prevent damage. With specialized packaging, metals are protected from corrosion, impact, and the environment—ensuring every shipment arrives safe and intact."
+    title: "Controlled Storage & Vaulting",
+    image: g33,
+    description:
+      "Gold is stored in secure, controlled environments designed to preserve purity and value, with sealed packaging, vault security, and continuous monitoring.",
   },
   {
-    src: gallery_4,
-    desc: "Copper is stored under controlled conditions to prevent oxidation. Using pallets, protective wrapping, and climate-aware storage, we keep it safe, organized, and ready for dispatch."
-  }
+    title: "Compliance & Export Preparation",
+    image: g34,
+    description:
+      "Before dispatch, all gold undergoes strict quality checks, documentation verification, and compliance procedures aligned with international trade regulations.",
+  },
 ];
 
 const Preparations = () => {
-  const [current, setCurrent] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
 
-  // Auto play
+  // Auto-slide every 30 seconds
   useEffect(() => {
-    const timer = setInterval(() => {
-      nextSlide();
-    }, 10000);
-    return () => clearInterval(timer);
-  }, [current]);
-
-  const nextSlide = () => {
-    setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-  };
-
-  const prevSlide = () => {
-    setCurrent((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
-  };
-
-  const goToSlide = (index) => {
-    setCurrent(index);
-  };
+    const interval = setInterval(() => {
+      setActiveIndex((prev) => (prev + 1) % processes.length);
+    }, 30000); // 30 seconds for a faster carousel
+    return () => clearInterval(interval);
+  }, []);
 
   return (
-    <div className='preparations'>
-      <div className='slider'>
-        <button className="arrow left" onClick={prevSlide}><FaArrowLeft /></button>
+    <section className="preparations">
+      {/* Header */}
+      <div className="prep-header">
+        <h2>Gold Handling & Export Preparation</h2>
+        <p>
+          We follow strict international standards to ensure secure handling,
+          storage, and delivery of gold to global markets.
+        </p>
+      </div>
 
-        {/* Render all images with active class */}
-        {slides.map((slide, index) => (
+      {/* Image Carousel */}
+      <div className="prep-image">
+        {processes.map((item, index) => (
+          <img
+            key={index}
+            src={item.image}
+            alt={item.title}
+            className={`carousel-img ${index === activeIndex ? "active" : ""}`}
+          />
+        ))}
+      </div>
+
+      {/* Cards Carousel */}
+      <div className="prep-cards">
+        {processes.map((item, index) => (
           <div
             key={index}
-            className={`slide-wrapper ${index === current ? "active" : ""}`}
+            className={`prep-card ${index === activeIndex ? "active" : ""}`}
+            onClick={() => setActiveIndex(index)}
           >
-            <img
-              src={slide.src}
-              alt="mineral shipment"
-              className="slide-img"
-            />
-            <p className="slide-desc">{slide.desc}</p>
+            <img src={item.image} alt={item.title} className="card-img" />
+            <h3>{item.title}</h3>
+            <p>{item.description}</p>
           </div>
         ))}
-
-        <button className="arrow right" onClick={nextSlide}><FaArrowRight /></button>
       </div>
 
-      {/* Dots */}
-      <div className="dots">
-        {slides.map((_, index) => (
-          <span
-            key={index}
-            className={`dot ${index === current ? "active" : ""}`}
-            onClick={() => goToSlide(index)}
-          ></span>
-        ))}
-      </div>
-
+      {/* CTA */}
       <Link to="/products">
-          <button className="btn dark-btn">
-            Explore more <img src={white_arrow} alt="arrow" />
-          </button>
-          </Link>
-    </div>
-  )
-}
+        <button className="btn dark-btn">
+          Explore Our Gold <img src={white_arrow} alt="arrow" />
+        </button>
+      </Link>
+    </section>
+  );
+};
 
-export default Preparations
+export default Preparations;
