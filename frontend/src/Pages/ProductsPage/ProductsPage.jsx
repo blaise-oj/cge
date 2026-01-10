@@ -23,6 +23,8 @@ import g35 from "../../assets/g35.png";
 import g36 from "../../assets/g36.png";
 import g37 from "../../assets/g37.png";
 import g38 from "../../assets/g38.png";
+import g42 from "../../assets/g42.png";
+import g43 from "../../assets/g43.png";
 
 const products = [
   {
@@ -74,6 +76,16 @@ const products = [
     img: g10,
     title: "Export-Ready Gold",
     desc: "Gold prepared with full documentation, compliance, and secure logistics for global markets."
+  },
+  {
+    img: g42,
+    title: "Alluvial Gold",
+    desc: "Naturally occurring gold extracted from riverbeds\n\nOften sold as nuggets, dust, or concentrate"
+  },
+    {
+    img: g43,
+    title: "Melted Gold Granules",
+    desc: "Uniform gold pellets produced from melted gold\n\nUsed in jewelry manufacturing and industrial applications"
   }
 ];
 

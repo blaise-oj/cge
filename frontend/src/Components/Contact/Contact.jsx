@@ -98,18 +98,49 @@ const Contact = () => {
 
         </div>
 
-        <div className='contact-col'>
+        <div className="contact-col">
           <form onSubmit={onSubmit}>
             <label>Your Name</label>
-            <input type='text' name='name' placeholder='Enter your name' required />
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+
+            <label>Email Address</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email address"
+              required
+            />
+
             <label>Phone Number</label>
-            <input type='text' name='phone' placeholder='Enter your phone number' required />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Enter your phone number"
+              required
+            />
+
             <label>Write your message here</label>
-            <textarea name='message' rows='6' placeholder='Enter your message' required></textarea>
-            <button type='submit' className='btn dark-btn'>Submit Now<img src={white_arrow} alt="" /></button>
+            <textarea
+              name="message"
+              rows="6"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+
+            <button type="submit" className="btn dark-btn">
+              Submit Now
+              <img src={white_arrow} alt="" />
+            </button>
           </form>
+
           <span>{result}</span>
         </div>
+
       </div>
 
 
