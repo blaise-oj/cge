@@ -39,11 +39,11 @@ const ContactPage = () => {
       <div className="contact-header">
         <h1>Contact Goldstrike Enterprise Limited</h1>
         <p>
-          At <strong>Goldstrike Enterprise Limited</strong>, we value open
-          communication with our clients, partners, and stakeholders. Whether
-          you’re looking to explore our mineral exports, request a partnership,
-          or simply ask a question, we’re here to assist you promptly and
-          professionally.
+          At <strong>Goldstrike Enterprise Limited</strong>, we believe that strong relationships are built on transparency, integrity, and open communication. 
+          Whether you are seeking to explore our premium mineral exports, establish a strategic partnership for buying or selling gold, 
+          inquire about our gold and mineral trading operations, or simply have a question, our dedicated team is ready to provide prompt, professional, and personalized assistance.
+           We pride ourselves on delivering exceptional support and ensuring that every interaction reflects our commitment to excellence, reliability, and global standards in the gold and mineral industry. 
+           Connect with us today and experience the Goldstrike difference—where trust, precision, and world-class service meet.
         </p>
       </div>
 

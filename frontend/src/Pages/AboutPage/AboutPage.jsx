@@ -1,264 +1,195 @@
 import "./AboutPage.css";
-import equinox from "../../assets/equinox.png"
+import equinox from "../../assets/equinox.png";
 
 const AboutPage = () => {
-    return (
-        <div className="about-page">
+  return (
+    <div className="about-page">
 
-            {/* HERO */}
-            <section className="about-hero">
-                <div className="about-hero-content">
-                    <h1>About Us</h1>
-                    <p>
-                        From the Earth to the World — Ethical Sourcing, Global Trade,
-                        and Trusted Value in Precious and Industrial Metals.
-                    </p>
-                </div>
-            </section>
-
-
-            {/* COMPANY STORY */}
-            <section className="about-section">
-                <h2>Who We Are</h2>
-                <p>
-                    Goldstrike Enterprise Limited is a professionally managed company
-                    specializing in the sourcing, trading, and international supply of
-                    precious and industrial metals. Our operations are guided by
-                    integrity, transparency, and responsible resource management.
-                </p>
-                <p>
-                    With a strong focus on gold, silver, and other high-value minerals,
-                    we connect resource-rich regions with reputable global markets
-                    through well-structured and compliant supply chains.
-                </p>
-                <p>
-                    Our commitment to quality assurance, dependable logistics, and
-                    ethical sourcing makes us a trusted partner for clients seeking
-                    reliability and long-term value.
-                </p>
-            </section>
-
-            {/* STATS */}
-            <section className="stats-section">
-                <div className="stat">
-                    <h3>10+</h3>
-                    <p>Years of Industry Experience</p>
-                </div>
-                <div className="stat">
-                    <h3>5+</h3>
-                    <p>Active Global Markets</p>
-                </div>
-                <div className="stat">
-                    <h3>100%</h3>
-                    <p>Ethical & Responsible Sourcing</p>
-                </div>
-                <div className="stat">
-                    <h3>Trusted</h3>
-                    <p>International Trade Partners</p>
-                </div>
-            </section>
-
-            {/* WHAT WE DO */}
-            <section className="about-section">
-                <h2>What We Do</h2>
-                <p>
-                    We provide end-to-end solutions in mineral sourcing and trading,
-                    covering responsible procurement, quality verification,
-                    documentation, logistics coordination, and international delivery.
-                </p>
-                <p>
-                    By working closely with suppliers, regulators, and global partners,
-                    we ensure every transaction meets international standards and
-                    client expectations.
-                </p>
-            </section>
-
-            {/* MISSION & VISION */}
-            <section className="about-section grid-two">
-                <div className="glass-card">
-                    <h3>Our Mission</h3>
-                    <p>
-                        To responsibly source and supply premium-quality minerals while
-                        creating sustainable value for our clients, partners, and
-                        communities.
-                    </p>
-                </div>
-
-                <div className="glass-card">
-                    <h3>Our Vision</h3>
-                    <p>
-                        To be a globally recognized leader in ethical mineral trading,
-                        known for transparency, reliability, and long-term partnerships.
-                    </p>
-                </div>
-            </section>
-
-            {/* WHY CHOOSE US */}
-            <section className="about-section">
-                <h2>Why Choose Goldstrike Enterprise Limited</h2>
-
-                <div className="why-grid">
-                    <div className="why-card">
-                        <h3>Reliable Supply Chains</h3>
-                        <p>
-                            Structured, traceable, and transparent supply chains that ensure
-                            consistency and timely delivery.
-                        </p>
-                    </div>
-
-                    <div className="why-card">
-                        <h3>Ethical & Responsible Sourcing</h3>
-                        <p>
-                            Strong commitment to ethical sourcing that respects communities,
-                            regulations, and environmental standards.
-                        </p>
-                    </div>
-
-                    <div className="why-card">
-                        <h3>Global Market Access</h3>
-                        <p>
-                            Strategic international partnerships providing access to
-                            reputable global buyers and markets.
-                        </p>
-                    </div>
-
-                    <div className="why-card">
-                        <h3>Trusted Partnerships</h3>
-                        <p>
-                            Long-term relationships built on transparency, trust,
-                            and shared growth.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            {/* CORE VALUES */}
-            <section className="about-section">
-                <h2>Core Values</h2>
-                <ul className="values-list">
-                    <li><strong>Integrity:</strong> Honest, transparent, and accountable operations</li>
-                    <li><strong>Responsibility:</strong> Ethical sourcing and environmental awareness</li>
-                    <li><strong>Excellence:</strong> High standards in service, quality, and execution</li>
-                    <li><strong>Partnership:</strong> Long-term, mutually beneficial relationships</li>
-                </ul>
-            </section>
-
-            {/* TIMELINE */}
-            <section className="about-section">
-                <h2>Our Journey</h2>
-
-                <div className="timeline">
-                    <div className="timeline-item">
-                        <span>2015</span>
-                        <p>Company establishment and entry into mineral sourcing</p>
-                    </div>
-
-                    <div className="timeline-item">
-                        <span>2018</span>
-                        <p>Expansion into international trade and exports</p>
-                    </div>
-
-                    <div className="timeline-item">
-                        <span>2021</span>
-                        <p>Strategic partnerships and operational growth</p>
-                    </div>
-
-                    <div className="timeline-item">
-                        <span>Present</span>
-                        <p>Strengthening global partnerships and market presence</p>
-                    </div>
-                </div>
-            </section>
-
-            {/* LEADERSHIP */}
-            <section className="about-section">
-                <h2>Our Management</h2>
-
-                <div className="leadership">
-                    <div className="leader-card">
-                        {/*<img src={ceoImg} alt="Mr. Sukhram Parkash" className="leader-img" />*/}
-                        <h3>Mr. Sukhram Parkash</h3>
-                        <span>Chief Executive Officer (CEO)</span>
-                        <p>
-                            Provides strategic leadership, oversees international partnerships,
-                            and drives long-term corporate growth with a global vision.
-                        </p>
-                    </div>
-
-                    <div className="leader-card">
-                        {/*<img src={mdImg} alt="Mr. Francis Otundo" className="leader-img" />*/}
-                        <h3>Mr. Francis Otundo</h3>
-                        <span>Managing Director</span>
-                        <p>
-                            Oversees daily operations, trade execution, and client engagement
-                            to ensure operational excellence and compliance.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            {/* PARTNER */}
-            <section className="about-section">
-                <h2>Strategic Partnership</h2>
-
-                <div className="partner-card">
-
-                    {/* PARTNER IMAGE */}
-                    <div className="partner-image-wrapper">
-                        <img
-                            src={equinox}
-                            alt="Equinox Metal Partners"
-                            className="partner-img"
-                        />
-                    </div>
-
-                    {/* PARTNER CONTENT */}
-                    <div className="partner-content">
-                        <h3>Equinox Metal Partners (United Kingdom)</h3>
-                        <p>
-                            Equinox Metal Partners is our UK-based parent partner company,
-                            strengthening our international presence through global market
-                            access, regulatory compliance, and trade execution. Contact our parent partner from the email below:
-                        </p>
-                        <p>
-                            Email:{" "}
-                            <a href="mailto:ram@equinoxmetalpartners.com">
-                                ram@equinoxmetalpartners.com
-                            </a>
-                        </p>
-                    </div>
-
-                </div>
-            </section>
-            {/* CERTIFICATIONS */}
-            <section className="about-section">
-                <h2>Assurance</h2>
-                <p>
-                    Our operations align with applicable international mining, trade,
-                    and export regulations, supported by thorough documentation and
-                    quality verification.
-                </p>
-                <p>
-                    This ensures confidence, transparency, and risk mitigation for all
-                    clients and partners.
-                </p>
-            </section>
-
-            {/* COMPLIANCE */}
-            <section className="about-section">
-                <h2>Compliance, Ethics & Sustainability</h2>
-                <p>
-                    We adhere to responsible sourcing practices, transparent supply
-                    chains, and environmentally conscious operations.
-                </p>
-                <p>
-                    By prioritizing compliance and ethical standards, we safeguard
-                    the integrity of the global metals trade and protect all stakeholders.
-                </p>
-            </section>
-
+      {/* HERO */}
+      <section className="about-hero">
+        <div className="about-hero-content">
+          <h1>About Goldstrike Enterprise</h1>
+          <p>
+            From the Earth to the World — Ethical Sourcing, Secure Handling, and Premium Gold Trading.
+          </p>
         </div>
-    );
+      </section>
+
+      {/* COMPANY STORY */}
+      <section className="about-section">
+        <h2>Who We Are</h2>
+        <p>
+          Goldstrike Enterprise Limited is a premier company specializing exclusively in the buying, selling, and trading of gold. 
+          Our operations are guided by integrity, transparency, and an unwavering commitment to quality.
+        </p>
+        <p>
+          We source gold responsibly from verified and ethical mining operations, connecting it to reputable buyers and investors across the globe.
+        </p>
+        <p>
+          Every gram of gold we handle undergoes strict verification, secure processing, and precise logistics, ensuring premium quality and trustworthiness.
+        </p>
+      </section>
+
+      {/* STATS */}
+      <section className="stats-section">
+        <div className="stat">
+          <h3>15+</h3>
+          <p>Years in Gold Trading</p>
+        </div>
+        <div className="stat">
+          <h3>10+</h3>
+          <p>Countries Served Globally</p>
+        </div>
+        <div className="stat">
+          <h3>100%</h3>
+          <p>Verified Ethical Sourcing</p>
+        </div>
+        <div className="stat">
+          <h3>Trusted</h3>
+          <p>International Gold Partners</p>
+        </div>
+      </section>
+
+      {/* WHAT WE DO */}
+      <section className="about-section">
+        <h2>What We Do</h2>
+        <p>
+          We provide full-spectrum gold trading services, including responsible sourcing, verification, secure transport, global sales, and client-focused delivery.
+        </p>
+        <p>
+          Our team ensures every transaction complies with international standards and guarantees the integrity, purity, and security of all gold handled.
+        </p>
+      </section>
+
+      {/* MISSION & VISION */}
+      <section className="about-section grid-two">
+        <div className="glass-card">
+          <h3>Our Mission</h3>
+          <p>
+            To provide premium, ethically sourced gold to global markets while ensuring security, trust, and maximum value for our clients.
+          </p>
+        </div>
+
+        <div className="glass-card">
+          <h3>Our Vision</h3>
+          <p>
+            To be recognized as a leading global gold trading company, renowned for ethical practices, exceptional service, and international reliability.
+          </p>
+        </div>
+      </section>
+
+      {/* WHY CHOOSE US */}
+      <section className="about-section">
+        <h2>Why Choose Goldstrike Enterprise</h2>
+
+        <div className="why-grid">
+          <div className="why-card">
+            <h3>Secure Supply Chains</h3>
+            <p>Traceable and fully documented processes that ensure safe handling and timely delivery of gold.</p>
+          </div>
+
+          <div className="why-card">
+            <h3>Ethical Sourcing</h3>
+            <p>Responsible procurement from certified mines, respecting communities and environmental standards.</p>
+          </div>
+
+          <div className="why-card">
+            <h3>Global Access</h3>
+            <p>Direct connections to reputable international buyers, investors, and trading partners.</p>
+          </div>
+
+          <div className="why-card">
+            <h3>Trusted Relationships</h3>
+            <p>Long-term partnerships built on transparency, integrity, and consistent quality.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* CORE VALUES */}
+      <section className="about-section">
+        <h2>Core Values</h2>
+        <ul className="values-list">
+          <li><strong>Integrity:</strong> Transparent and honest trading practices</li>
+          <li><strong>Excellence:</strong> High standards in handling, logistics, and client service</li>
+          <li><strong>Security:</strong> Safe, insured, and traceable gold transactions</li>
+          <li><strong>Trust:</strong> Building long-term partnerships with clients and partners</li>
+        </ul>
+      </section>
+
+      {/* TIMELINE */}
+      <section className="about-section">
+        <h2>Our Journey</h2>
+        <div className="timeline">
+          <div className="timeline-item">
+            <span>2010</span>
+            <p>Company inception and focus on gold trading</p>
+          </div>
+
+          <div className="timeline-item">
+            <span>2015</span>
+            <p>Expansion into international markets and exports</p>
+          </div>
+
+          <div className="timeline-item">
+            <span>2019</span>
+            <p>Partnerships with global investors and refiners</p>
+          </div>
+
+          <div className="timeline-item">
+            <span>Present</span>
+            <p>Trusted global leader in ethical gold trading</p>
+          </div>
+        </div>
+      </section>
+
+      {/* LEADERSHIP */}
+      <section className="about-section">
+        <h2>Our Leadership</h2>
+        <div className="leadership">
+          <div className="leader-card">
+            <h3>Mr. Sukhram Parkash</h3>
+            <span>Chief Executive Officer (CEO)</span>
+            <p>Provides strategic direction, oversees global partnerships, and ensures gold trading excellence.</p>
+          </div>
+
+          <div className="leader-card">
+            <h3>Mr. Francis Otundo</h3>
+            <span>Managing Director</span>
+            <p>Manages daily operations, client relations, and global sales to ensure seamless gold trading.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* PARTNERSHIP */}
+      <section className="about-section">
+        <h2>Strategic Partner</h2>
+        <div className="partner-card">
+          <div className="partner-image-wrapper">
+            <img src={equinox} alt="Equinox Metal Partners" className="partner-img" />
+          </div>
+          <div className="partner-content">
+            <h3>Equinox Metal Partners (UK)</h3>
+            <p>
+              Strengthening our global presence with regulatory compliance, market access, and premium gold trading partnerships.
+            </p>
+            <p>
+              Contact: <a href="mailto:ram@equinoxmetalpartners.com">ram@equinoxmetalpartners.com</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ASSURANCE */}
+      <section className="about-section">
+        <h2>Assurance & Compliance</h2>
+        <p>
+          Our gold trading operations adhere strictly to international standards, ethical sourcing, and responsible handling, 
+          providing confidence, transparency, and risk mitigation for all clients and partners.
+        </p>
+      </section>
+
+    </div>
+  );
 };
 
 export default AboutPage;

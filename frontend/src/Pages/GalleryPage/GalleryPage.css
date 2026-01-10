@@ -1,79 +1,205 @@
+/* ===============================
+   ROOT GOLD VARIABLES
+================================ */
+:root {
+  --gold-solid: #d4af37;
+  --gold-gradient: linear-gradient(135deg, #d4af37, #ffd700, #f5c542, #d4af37);
+  --soft-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+  --deep-shadow: 0 40px 100px rgba(0, 0, 0, 0.12);
+  --radius: 18px;
+}
+
+/* ===============================
+   PAGE WRAPPER
+================================ */
 .gallery-page {
-  margin: 140px auto 60px auto;
-  width: 90%;
+  background: #ffffff;
+  padding: 120px 6vw 100px; /* extra top spacing to separate navbar */
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ===============================
+   HEADER (Luxury Gold Style)
+================================ */
+.gallery-header {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 900px;
+  margin: 50px auto 80px auto; /* increased top margin from navbar */
+  padding: 0 15px;
 }
 
-.gallery-page h1 {
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: #000f38;
+.gallery-header h1 {
+  font-size: clamp(30px, 4vw, 54px);
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  /* Change from gold gradient to solid black */
+  color: #000; 
+  margin-bottom: 20px;
 }
 
-.gallery-intro {
-  max-width: 700px;
-  margin: 0 auto 40px auto;
-  font-size: 16px;
-  color: #444;
-  line-height: 1.6;
-}
-
-.gallery-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  justify-content: center;
-}
-
-.gallery-card {
-  flex-basis: 30%;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-align: left;
-}
-
-.gallery-card img {
-  width: 100%;
-  display: block;
-  border-bottom: 3px solid #f1f1f1;
-}
-
-.gallery-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.15);
-}
-
-.gallery-info {
-  padding: 15px;
-}
-
-.gallery-info h3 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: #000f38;
-}
-
-.gallery-info p {
-  font-size: 14px;
+.gallery-header .gallery-subtitle {
+  font-size: 1.05rem;
+  line-height: 1.8;
   color: #555;
-  line-height: 1.5;
+  margin-bottom: 16px;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-  .gallery-card {
-    flex-basis: 45%;
-  }
+.gallery-header .gallery-tagline {
+  display: inline-block;
+  font-size: 0.85rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #888;
+  position: relative;
+  padding-top: 18px;
 }
 
-@media (max-width: 600px) {
-  .gallery-card {
-    flex-basis: 100%;
+.gallery-header .gallery-tagline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 60px;
+  height: 2px;
+  background: var(--gold-solid);
+  transform: translateX(-50%);
+}
+
+/* ===============================
+   GALLERY GRID (Masonry Style)
+================================ */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 35px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* ===============================
+   GALLERY ITEM
+================================ */
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  box-shadow: var(--soft-shadow);
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition:
+    transform 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 0.6s ease;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transform: scale(1.05);
+  transition: transform 1.2s ease, filter 0.6s ease;
+  filter: brightness(0.95) contrast(1.05);
+  border-radius: var(--radius);
+}
+
+/* ===============================
+   GOLD SHIMMER EFFECT
+================================ */
+.gold-shine {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent 30%,
+    rgba(255, 215, 0, 0.35) 50%,
+    transparent 70%
+  );
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+/* ===============================
+   HOVER ANIMATIONS
+================================ */
+.gallery-item:hover {
+  transform: translateY(-14px) scale(1.02);
+  box-shadow: var(--deep-shadow);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.18);
+  filter: brightness(1.05) contrast(1.1);
+}
+
+.gallery-item:hover .gold-shine {
+  opacity: 1;
+  animation: goldSweep 1.2s ease forwards;
+}
+
+/* Gold shimmer animation */
+@keyframes goldSweep {
+  0% { transform: translateX(-120%); }
+  100% { transform: translateX(120%); }
+}
+
+/* ===============================
+   SUBTLE REFLECTION OVERLAY
+================================ */
+.gallery-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.15),
+    transparent 45%
+  );
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  border-radius: var(--radius);
+}
+
+.gallery-item:hover::after {
+  opacity: 1;
+}
+
+/* ===============================
+   MOBILE RESPONSIVE
+================================ */
+@media (max-width: 768px) {
+  .gallery-page { padding: 100px 5vw 80px; }
+  .gallery-grid { gap: 22px; }
+  .gallery-item:hover { transform: none; box-shadow: var(--soft-shadow); }
+  .gallery-item img { transform: scale(1.05); }
+  .gallery-item:hover img { transform: scale(1.08); }
+  .gallery-header h1 { font-size: 36px; }
+  .gallery-header .gallery-subtitle { font-size: 0.95rem; }
+  .gallery-header .gallery-tagline { font-size: 0.75rem; padding-top: 14px; }
+}
+
+@media (max-width: 480px) {
+  .gallery-page { padding: 80px 4vw 60px; }
+  .gallery-item img { transform: scale(1.03); }
+  .gallery-header h1 { font-size: 28px; }
+  .gallery-header .gallery-subtitle { font-size: 0.85rem; }
+  .gallery-header .gallery-tagline { font-size: 0.65rem; padding-top: 12px; }
+}
+
+/* ===============================
+   REDUCED MOTION (ACCESSIBILITY)
+================================ */
+@media (prefers-reduced-motion: reduce) {
+  .gallery-item,
+  .gallery-item img,
+  .gold-shine {
+    transition: none;
+    animation: none;
   }
 }
