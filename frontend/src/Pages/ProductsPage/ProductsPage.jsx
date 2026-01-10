@@ -13,50 +13,60 @@ import g7 from "../../assets/g7.png";
 import g8 from "../../assets/g8.png";
 import g9 from "../../assets/g9.png";
 import g10 from "../../assets/g10.png";
+import g13 from "../../assets/g13.png";
+import g26 from "../../assets/g26.png";
+import g27 from "../../assets/g27.png";
+import g28 from "../../assets/g28.png";
+import g29 from "../../assets/g29.png";
+import g30 from "../../assets/g30.png";
+import g35 from "../../assets/g35.png";
+import g36 from "../../assets/g36.png";
+import g37 from "../../assets/g37.png";
+import g38 from "../../assets/g38.png";
 
 const products = [
   {
-    img: g5,
+    img: g28,
     title: "Gold Doré Bars",
     desc: "Unrefined gold doré bars sourced directly from mining operations, suitable for international refining and export."
   },
   {
-    img: g2,
+    img: g5,
     title: "Refined Gold Bars",
     desc: "High-purity refined gold bars meeting international standards, available in multiple weights for investment and trade."
   },
   {
-    img: g3,
+    img: g26,
     title: "Gold Nuggets",
     desc: "Naturally occurring gold nuggets sourced responsibly from artisanal and licensed miners."
   },
   {
-    img: g4,
+    img: g35,
     title: "Gold Dust",
     desc: "Carefully collected gold dust prepared for aggregation, refining, and secure bulk trading."
   },
   {
-    img: g5,
+    img: g36,
     title: "Gold Ore",
     desc: "Selected gold-bearing ore supplied to approved processing and refining facilities."
   },
   {
-    img: g6,
+    img: g29,
     title: "Investment Gold",
     desc: "Gold products structured for investors seeking secure value preservation and long-term growth."
   },
   {
-    img: g7,
+    img: g37,
     title: "Bulk Gold Supply",
     desc: "Large-volume gold supply for refiners, financial institutions, and industrial buyers."
   },
   {
-    img: g8,
+    img: g38,
     title: "Artisanal Gold",
     desc: "Ethically sourced gold from small-scale miners, supporting responsible mining communities."
   },
   {
-    img: g9,
+    img: g13,
     title: "Custom Gold Orders",
     desc: "Tailored gold sourcing solutions based on purity, volume, destination, and buyer requirements."
   },

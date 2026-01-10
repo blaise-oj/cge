@@ -32,16 +32,21 @@ import g27 from "../../assets/g27.png";
 import g28 from "../../assets/g28.png";
 import g29 from "../../assets/g29.png";
 import g30 from "../../assets/g30.png";
-import g31 from "../../assets/g31.png";
-import g32 from "../../assets/g32.png";
-import g33 from "../../assets/g33.png";
+import g34 from "../../assets/g34.png";
+import g35 from "../../assets/g35.png";
+import g36 from "../../assets/g36.png";
+import g37 from "../../assets/g37.png";
+import g38 from "../../assets/g38.png";
+import g39 from "../../assets/g39.png";
+import g40 from "../../assets/g40.png";
+import g41 from "../../assets/g41.png";
 
 // Pure image gallery array
 const goldGallery = [
   g1, g2, g3, g4, g5, g6, g7, g8, g9, g10,
   g11, g12, g13, g14, g15, g16, g17, g18, g19, g20,
   g21, g22, g23, g24, g25, g26, g27, g28, g29, g30,
-  g31, g32, g33
+   g34, g35, g36, g37, g38, g39, g40, g41
 ];
 
 const GalleryPage = () => {
