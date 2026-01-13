@@ -55,7 +55,7 @@ const Footer = () => {
           <h4 className="footer-subtitle">Strategic Partner</h4>
           <p>
             <strong>Equinox Metal Partners</strong><br />
-            United Kingdom
+            Dubai, United Arab Emirates (UAE) 
           </p>
           <p>
             <a href="mailto:ram@equinoxmetalpartners.com">

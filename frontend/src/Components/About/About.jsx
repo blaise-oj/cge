@@ -43,7 +43,7 @@ const About = ({ setPlayState }) => {
         <div className="home-partner">
           <h4>Strategic International Partnership</h4>
           <p>
-            We are supported by our UK-based strategic partner,
+            We are supported by our DUBAI-based strategic partner,
             <strong> Equinox Metal Partners</strong>, enabling access to global buyers,
             refined market intelligence, regulatory compliance, and efficient trade
             execution across international gold markets.

@@ -168,7 +168,7 @@ const AboutPage = () => {
             <img src={equinox} alt="Equinox Metal Partners" className="partner-img" />
           </div>
           <div className="partner-content">
-            <h3>Equinox Metal Partners (UK)</h3>
+            <h3>Equinox Metal Partners (Dubai - United Arab Emirates (UAE) )</h3>
             <p>
               Strengthening our global presence with regulatory compliance, market access, and premium gold trading partnerships.
             </p>
