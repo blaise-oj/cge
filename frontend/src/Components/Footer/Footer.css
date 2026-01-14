@@ -48,26 +48,31 @@
 
 .socials {
   display: flex;
-  gap: 12px;
-  margin-top: 10px;
+  gap: 34px;
 }
 
-.socials a {
-  color: #fff;
-  background: #ff8c00;
-  width: 32px;
-  height: 32px;
+.social {
+  font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.socials a:hover {
-  background: #fff;
-  color: #000f38;
+/* Brand colors */
+.social.facebook { color: #1877F2; }    /* Facebook blue */
+.social.twitter { color: #1DA1F2; }     /* Twitter/X blue */
+.social.instagram {
+  color: #E1306C;                        /* Instagram pink */
 }
+.social.whatsapp { color: #25D366; }    /* WhatsApp green */
+
+/* Hover effect */
+.social:hover {
+  transform: translateY(-2px) scale(1.08);
+  filter: brightness(1.1);
+}
+
 
 .footer-bottom {
   text-align: center;
@@ -103,5 +108,8 @@
 
   .footer-col {
     margin-bottom: 30px;
+  }
+  .socials {
+    justify-content: center;
   }
 }

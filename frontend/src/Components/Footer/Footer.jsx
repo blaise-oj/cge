@@ -3,10 +3,10 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 import {
   FaFacebookF,
-  FaTwitter,
   FaInstagram,
   FaWhatsapp,
 } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -41,21 +41,21 @@ const Footer = () => {
         <div className="footer-col">
           <h4>Management</h4>
           <p><strong>Mr. Sukhram Parkash</strong><br />CEO <p>
-                            Email:{" "}
-                            <a href="mailto:ram@equinoxmetalpartners.com">
-                                ram@equinoxmetalpartners.com
-                            </a>
-                        </p></p>
+            Email:{" "}
+            <a href="mailto:ram@equinoxmetalpartners.com">
+              ram@equinoxmetalpartners.com
+            </a>
+          </p></p>
           <p><strong>Mr. Francis Otundo</strong><br />Managing Director</p>
-           Email:{" "}
-                            <a href="mailto:info@goldstrikeenterprise.com">
-                                info@goldstrikeenterprise.com
-                            </a>
+          Email:{" "}
+          <a href="mailto:info@goldstrikeenterprise.com">
+            info@goldstrikeenterprise.com
+          </a>
 
           <h4 className="footer-subtitle">Strategic Partner</h4>
           <p>
             <strong>Equinox Metal Partners</strong><br />
-            Dubai, United Arab Emirates (UAE) 
+            Dubai, United Arab Emirates (UAE)
           </p>
           <p>
             <a href="mailto:ram@equinoxmetalpartners.com">
@@ -87,6 +87,7 @@ const Footer = () => {
               href="https://www.facebook.com/profile.php?id=61582791081492"
               target="_blank"
               rel="noopener noreferrer"
+              className="social facebook"
             >
               <FaFacebookF />
             </a>
@@ -95,14 +96,16 @@ const Footer = () => {
               href="https://x.com/@AurumarkE15952"
               target="_blank"
               rel="noopener noreferrer"
+              className="social x"
             >
-              <FaTwitter />
+              <FaXTwitter />
             </a>
 
             <a
               href="https://instagram.com/goldstrikeenterprise"
               target="_blank"
               rel="noopener noreferrer"
+              className="social instagram"
             >
               <FaInstagram />
             </a>
@@ -111,6 +114,7 @@ const Footer = () => {
               href="https://wa.me/254102913538"
               target="_blank"
               rel="noopener noreferrer"
+              className="social whatsapp"
             >
               <FaWhatsapp />
             </a>
@@ -125,7 +129,7 @@ const Footer = () => {
           © {new Date().getFullYear()} Goldstrike Enterprise Limited. All rights reserved.
         </p>
       </div>
-    </footer>
+    </footer >
   );
 };
 
