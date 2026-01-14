@@ -36,7 +36,7 @@
 .contact-col ul li img{
     width: 25px;
     margin-right: 10px;
-    filter: invert(74%) sepia(83%) saturate(749%) hue-rotate(1deg) brightness(103%) contrast(103%);
+    
 }
 .contact form input, .contact form textarea{
     display: block;
